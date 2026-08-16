@@ -16,7 +16,7 @@ import plotly.graph_objects as go
 st.set_page_config(page_title="Consultoria: Previsão de Churn", layout="wide") 
 
 
-api_url = "http://127.0.0.1:8000/predict"
+api_url = "https://consultoria-estatistica-6l0z.onrender.com/predict"
 
 tab1, tab2, tab3, tab4 = st.tabs([
     "Sobre o modelo",
