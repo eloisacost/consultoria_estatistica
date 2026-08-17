@@ -1,5 +1,5 @@
 # 1. Pega um computador zerado com Python instalado
-FROM python:3.13
+FROM python:3.13-slim
 
 # 2. Cria uma pasta chamada /app dentro do servidor
 WORKDIR /app
